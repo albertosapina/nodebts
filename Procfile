@@ -1,1 +1,1 @@
-web: cd src && gunicorn --bind 0.0.0.0:$PORT src/nodebts.wsgi
+web: gunicorn --chdir src --bind 0.0.0.0:$PORT src/nodebts.wsgi
