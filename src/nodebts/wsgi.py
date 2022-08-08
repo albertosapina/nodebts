@@ -1,5 +1,5 @@
 """
-WSGI config for nosql_wiki project.
+WSGI config for nodebts project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'nosql_wiki.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'nodebts.settings')
 
 application = get_wsgi_application()

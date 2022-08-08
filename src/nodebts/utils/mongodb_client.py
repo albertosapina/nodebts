@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-from nosql_wiki.settings import MONGO_SETTINGS
+from nodebts.settings import MONGO_SETTINGS
 
 def getDatabase():
     client = MongoClient(MONGO_SETTINGS["connection_string"])

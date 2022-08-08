@@ -5,7 +5,7 @@ from rest_framework.permissions import IsAuthenticated
 from bson.objectid import ObjectId
 import json
 
-from nosql_wiki.utils.mongodb_client import getDatabase
+from nodebts.utils.mongodb_client import getDatabase
 
 class MongoPage(APIView):
     def get(self, request):

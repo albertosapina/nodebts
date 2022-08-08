@@ -1,5 +1,5 @@
 import constants
-from nosql_wiki.utils.appexception import AppException
+from nodebts.utils.appexception import AppException
 
 class Field:
     def __init__(self, name, type, many=False, null=True):
