@@ -24,4 +24,5 @@ urlpatterns = [
     path('api/token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
     
     path('mongopage/', include('mongo_page.urls')),
+    path('auth/', include('authentication.urls'))
 ]
